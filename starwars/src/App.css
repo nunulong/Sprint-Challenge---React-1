@@ -6,3 +6,22 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.person {
+  border: 1px solid black;
+  width: 45%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .person {
+    width: 90%;
+  }
+}
